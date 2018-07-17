@@ -1,14 +1,25 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="AvenirNext.ttc">
+            <string>AvenirNext-DemiBold</string>
+            <string>AvenirNext-Medium</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Question21" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +27,69 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0mz-Cw-xL1">
+                                <rect key="frame" x="8" y="623" width="359" height="36"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                <state key="normal" title="Next Question">
+                                    <color key="titleColor" red="0.30840110780000002" green="0.5618229508" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c5R-WX-vi7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2B4-aV-SF5">
+                                <rect key="frame" x="8" y="8" width="359" height="36"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                <state key="normal" title="Next Question">
+                                    <color key="titleColor" red="0.30840110780000002" green="0.5618229508" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PHS-Bc-6Bb"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Who is a better cook your mother or grandmother?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ykD-38-9di">
+                                <rect key="frame" x="16" y="277" width="343" height="119"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="119" id="YE5-WB-4U2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.30840110780000002" green="0.5618229508" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="0mz-Cw-xL1" secondAttribute="trailing" constant="8" id="9OJ-Ms-Ime"/>
+                            <constraint firstItem="2B4-aV-SF5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="DyD-f5-8rN"/>
+                            <constraint firstAttribute="trailing" secondItem="0mz-Cw-xL1" secondAttribute="trailing" constant="8" id="Emm-Ky-t0G"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="0mz-Cw-xL1" secondAttribute="bottom" constant="8" id="Hf1-jw-EmO"/>
+                            <constraint firstItem="2B4-aV-SF5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="InV-oD-OBa"/>
+                            <constraint firstItem="2B4-aV-SF5" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="8" id="PZp-7Z-jAc"/>
+                            <constraint firstAttribute="trailing" secondItem="2B4-aV-SF5" secondAttribute="trailing" constant="8" id="UqC-Px-tFe"/>
+                            <constraint firstItem="0mz-Cw-xL1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="WFy-Oy-ouz"/>
+                            <constraint firstItem="2B4-aV-SF5" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="8" id="X0U-TY-z61"/>
+                            <constraint firstItem="ykD-38-9di" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="277" id="cUg-ri-232"/>
+                            <constraint firstItem="ykD-38-9di" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="do2-l3-bEp"/>
+                            <constraint firstItem="0mz-Cw-xL1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="hFs-gp-PWO"/>
+                            <constraint firstAttribute="trailing" secondItem="2B4-aV-SF5" secondAttribute="trailing" constant="8" id="kF5-tY-yOZ"/>
+                            <constraint firstItem="0mz-Cw-xL1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nHt-Uf-rgk"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="0mz-Cw-xL1" secondAttribute="bottom" constant="8" id="nue-Eg-O0X"/>
+                            <constraint firstItem="2B4-aV-SF5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pnN-Td-oCi"/>
+                            <constraint firstItem="ykD-38-9di" firstAttribute="centerX" secondItem="0mz-Cw-xL1" secondAttribute="centerX" id="sdx-gj-K1x"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="nextQbutton" destination="0mz-Cw-xL1" id="oIX-w1-WGc"/>
+                        <outlet property="nextQbutton2" destination="2B4-aV-SF5" id="1fV-dc-znZ"/>
+                        <outlet property="questionsLabel" destination="ykD-38-9di" id="cNt-x3-gVb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
     </scenes>
 </document>

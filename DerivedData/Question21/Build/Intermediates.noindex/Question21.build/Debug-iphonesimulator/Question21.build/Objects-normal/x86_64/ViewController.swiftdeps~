@@ -1,0 +1,725 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "10Question2114ViewControllerC"
+provides-member:
+- ["10Question2114ViewControllerC", ""]
+provides-dynamic-lookup:
+- "checkPlayer"
+- "nextButton"
+- "nextQbutton"
+- "nextQbutton2"
+- "player"
+- "prefersStatusBarHidden"
+- "questionIndex"
+- "questions"
+- "questionsLabel"
+- "testEnd"
+- "viewDidLoad"
+depends-top-level:
+- !private "%"
+- !private "*"
+- !private "+="
+- !private "<"
+- !private "=="
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "CGAffineTransform"
+- !private "CGFloat"
+- "StringLiteralType"
+- !private "UIAlertAction"
+- !private "UIAlertActionStyle"
+- !private "UIAlertController"
+- !private "UIAlertControllerStyle"
+- "UIButton"
+- "UILabel"
+- "UIViewController"
+- "ViewController"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "subscript"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s19BinaryFloatingPointP", "pi"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "isHidden"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["So15CALayerDelegateP", "transform"]
+- !private ["SC17CGAffineTransformV", "init"]
+- !private ["12CoreGraphics7CGFloatV", "pi"]
+- !private ["s7CVarArgP", "CGAffineTransform"]
+- !private ["s7CVarArgP", "CGFloat"]
+- !private ["s7CVarArgP", "UIAlertAction"]
+- !private ["s7CVarArgP", "UIAlertActionStyle"]
+- !private ["s7CVarArgP", "UIAlertController"]
+- !private ["s7CVarArgP", "UIAlertControllerStyle"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addAction"]
+- !private ["s7CVarArgP", "checkPlayer"]
+- !private ["s7CVarArgP", "count"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isHidden"]
+- !private ["s7CVarArgP", "nextQbutton"]
+- !private ["s7CVarArgP", "nextQbutton2"]
+- !private ["s7CVarArgP", "pi"]
+- !private ["s7CVarArgP", "player"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "questionIndex"]
+- !private ["s7CVarArgP", "questions"]
+- !private ["s7CVarArgP", "questionsLabel"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "testEnd"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "transform"]
+- !private ["s10CollectionP", "count"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "pi"]
+- !private ["s28CustomDebugStringConvertibleP", "CGAffineTransform"]
+- !private ["s28CustomDebugStringConvertibleP", "CGFloat"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertAction"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertActionStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertController"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertControllerStyle"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addAction"]
+- !private ["s28CustomDebugStringConvertibleP", "checkPlayer"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isHidden"]
+- !private ["s28CustomDebugStringConvertibleP", "nextQbutton"]
+- !private ["s28CustomDebugStringConvertibleP", "nextQbutton2"]
+- !private ["s28CustomDebugStringConvertibleP", "player"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "questionIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "questions"]
+- !private ["s28CustomDebugStringConvertibleP", "questionsLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "testEnd"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "transform"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "pi"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "CGAffineTransform"]
+- !private ["s23CustomStringConvertibleP", "CGFloat"]
+- !private ["s23CustomStringConvertibleP", "UIAlertAction"]
+- !private ["s23CustomStringConvertibleP", "UIAlertActionStyle"]
+- !private ["s23CustomStringConvertibleP", "UIAlertController"]
+- !private ["s23CustomStringConvertibleP", "UIAlertControllerStyle"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addAction"]
+- !private ["s23CustomStringConvertibleP", "checkPlayer"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isHidden"]
+- !private ["s23CustomStringConvertibleP", "nextQbutton"]
+- !private ["s23CustomStringConvertibleP", "nextQbutton2"]
+- !private ["s23CustomStringConvertibleP", "pi"]
+- !private ["s23CustomStringConvertibleP", "player"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "questionIndex"]
+- !private ["s23CustomStringConvertibleP", "questions"]
+- !private ["s23CustomStringConvertibleP", "questionsLabel"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "testEnd"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "transform"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "count"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "pi"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "count"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "pi"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "CGAffineTransform"]
+- !private ["s9EquatableP", "CGFloat"]
+- !private ["s9EquatableP", "UIAlertAction"]
+- !private ["s9EquatableP", "UIAlertActionStyle"]
+- !private ["s9EquatableP", "UIAlertController"]
+- !private ["s9EquatableP", "UIAlertControllerStyle"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addAction"]
+- !private ["s9EquatableP", "alert"]
+- !private ["s9EquatableP", "checkPlayer"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "default"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isHidden"]
+- !private ["s9EquatableP", "nextQbutton"]
+- !private ["s9EquatableP", "nextQbutton2"]
+- !private ["s9EquatableP", "pi"]
+- !private ["s9EquatableP", "player"]
+- !private ["s9EquatableP", "present"]
+- !private ["s9EquatableP", "questionIndex"]
+- !private ["s9EquatableP", "questions"]
+- !private ["s9EquatableP", "questionsLabel"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "testEnd"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "transform"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "pi"]
+- !private ["s27ExpressibleByIntegerLiteralP", "pi"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s13FloatingPointP", "pi"]
+- !private ["s8HashableP", "CGAffineTransform"]
+- !private ["s8HashableP", "CGFloat"]
+- !private ["s8HashableP", "UIAlertAction"]
+- !private ["s8HashableP", "UIAlertActionStyle"]
+- !private ["s8HashableP", "UIAlertController"]
+- !private ["s8HashableP", "UIAlertControllerStyle"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addAction"]
+- !private ["s8HashableP", "alert"]
+- !private ["s8HashableP", "checkPlayer"]
+- !private ["s8HashableP", "default"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "isHidden"]
+- !private ["s8HashableP", "nextQbutton"]
+- !private ["s8HashableP", "nextQbutton2"]
+- !private ["s8HashableP", "pi"]
+- !private ["s8HashableP", "player"]
+- !private ["s8HashableP", "present"]
+- !private ["s8HashableP", "questionIndex"]
+- !private ["s8HashableP", "questions"]
+- !private ["s8HashableP", "questionsLabel"]
+- !private ["s8HashableP", "testEnd"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "transform"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So8NSCodingP", "CGAffineTransform"]
+- !private ["So8NSCodingP", "CGFloat"]
+- !private ["So8NSCodingP", "UIAlertAction"]
+- !private ["So8NSCodingP", "UIAlertActionStyle"]
+- !private ["So8NSCodingP", "UIAlertController"]
+- !private ["So8NSCodingP", "UIAlertControllerStyle"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addAction"]
+- !private ["So8NSCodingP", "checkPlayer"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isHidden"]
+- !private ["So8NSCodingP", "nextQbutton"]
+- !private ["So8NSCodingP", "nextQbutton2"]
+- !private ["So8NSCodingP", "player"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "questionIndex"]
+- !private ["So8NSCodingP", "questions"]
+- !private ["So8NSCodingP", "questionsLabel"]
+- !private ["So8NSCodingP", "testEnd"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "transform"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "CGAffineTransform"]
+- !private ["So26NSExtensionRequestHandlingP", "CGFloat"]
+- !private ["So26NSExtensionRequestHandlingP", "UIAlertAction"]
+- !private ["So26NSExtensionRequestHandlingP", "UIAlertActionStyle"]
+- !private ["So26NSExtensionRequestHandlingP", "UIAlertController"]
+- !private ["So26NSExtensionRequestHandlingP", "UIAlertControllerStyle"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "addAction"]
+- !private ["So26NSExtensionRequestHandlingP", "checkPlayer"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "nextQbutton"]
+- !private ["So26NSExtensionRequestHandlingP", "nextQbutton2"]
+- !private ["So26NSExtensionRequestHandlingP", "player"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "questionIndex"]
+- !private ["So26NSExtensionRequestHandlingP", "questions"]
+- !private ["So26NSExtensionRequestHandlingP", "questionsLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "testEnd"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "CGAffineTransform"]
+- !private ["So8NSObjectC", "CGFloat"]
+- !private ["So8NSObjectC", "UIAlertAction"]
+- !private ["So8NSObjectC", "UIAlertActionStyle"]
+- !private ["So8NSObjectC", "UIAlertController"]
+- !private ["So8NSObjectC", "UIAlertControllerStyle"]
+- ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", "UILabel"]
+- !private ["So8NSObjectC", "addAction"]
+- ["So8NSObjectC", "checkPlayer"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isHidden"]
+- ["So8NSObjectC", "nextButton"]
+- ["So8NSObjectC", "nextQbutton"]
+- ["So8NSObjectC", "nextQbutton2"]
+- ["So8NSObjectC", "player"]
+- ["So8NSObjectC", "prefersStatusBarHidden"]
+- !private ["So8NSObjectC", "present"]
+- ["So8NSObjectC", "questionIndex"]
+- ["So8NSObjectC", "questions"]
+- ["So8NSObjectC", "questionsLabel"]
+- ["So8NSObjectC", "testEnd"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "transform"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "CGAffineTransform"]
+- !private ["So16NSObjectProtocolP", "CGFloat"]
+- !private ["So16NSObjectProtocolP", "UIAlertAction"]
+- !private ["So16NSObjectProtocolP", "UIAlertActionStyle"]
+- !private ["So16NSObjectProtocolP", "UIAlertController"]
+- !private ["So16NSObjectProtocolP", "UIAlertControllerStyle"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "addAction"]
+- !private ["So16NSObjectProtocolP", "checkPlayer"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isHidden"]
+- !private ["So16NSObjectProtocolP", "nextQbutton"]
+- !private ["So16NSObjectProtocolP", "nextQbutton2"]
+- !private ["So16NSObjectProtocolP", "player"]
+- !private ["So16NSObjectProtocolP", "present"]
+- !private ["So16NSObjectProtocolP", "questionIndex"]
+- !private ["So16NSObjectProtocolP", "questions"]
+- !private ["So16NSObjectProtocolP", "questionsLabel"]
+- !private ["So16NSObjectProtocolP", "testEnd"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "transform"]
+- !private ["s7NumericP", "pi"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s16RawRepresentableP", "alert"]
+- !private ["s16RawRepresentableP", "default"]
+- !private ["s8SequenceP", "count"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s13SignedNumericP", "pi"]
+- !private ["s10StrideableP", "pi"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "isHidden"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "transform"]
+- !private ["So29UIAccessibilityIdentificationP", "isHidden"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So29UIAccessibilityIdentificationP", "transform"]
+- !private ["So13UIAlertActionC", "init"]
+- !private ["SC18UIAlertActionStyleO", "default"]
+- !private ["So17UIAlertControllerC", "addAction"]
+- !private ["So17UIAlertControllerC", "init"]
+- !private ["SC22UIAlertControllerStyleO", "alert"]
+- !private ["So12UIAppearanceP", "isHidden"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So12UIAppearanceP", "transform"]
+- !private ["So21UIAppearanceContainerP", "CGAffineTransform"]
+- !private ["So21UIAppearanceContainerP", "CGFloat"]
+- !private ["So21UIAppearanceContainerP", "UIAlertAction"]
+- !private ["So21UIAppearanceContainerP", "UIAlertActionStyle"]
+- !private ["So21UIAppearanceContainerP", "UIAlertController"]
+- !private ["So21UIAppearanceContainerP", "UIAlertControllerStyle"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addAction"]
+- !private ["So21UIAppearanceContainerP", "checkPlayer"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isHidden"]
+- !private ["So21UIAppearanceContainerP", "nextQbutton"]
+- !private ["So21UIAppearanceContainerP", "nextQbutton2"]
+- !private ["So21UIAppearanceContainerP", "player"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "questionIndex"]
+- !private ["So21UIAppearanceContainerP", "questions"]
+- !private ["So21UIAppearanceContainerP", "questionsLabel"]
+- !private ["So21UIAppearanceContainerP", "testEnd"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "transform"]
+- !private ["So8UIButtonC", "isHidden"]
+- !private ["So8UIButtonC", "transform"]
+- !private ["So18UIContentContainerP", "CGAffineTransform"]
+- !private ["So18UIContentContainerP", "CGFloat"]
+- !private ["So18UIContentContainerP", "UIAlertAction"]
+- !private ["So18UIContentContainerP", "UIAlertActionStyle"]
+- !private ["So18UIContentContainerP", "UIAlertController"]
+- !private ["So18UIContentContainerP", "UIAlertControllerStyle"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "addAction"]
+- !private ["So18UIContentContainerP", "checkPlayer"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "nextQbutton"]
+- !private ["So18UIContentContainerP", "nextQbutton2"]
+- !private ["So18UIContentContainerP", "player"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "questionIndex"]
+- !private ["So18UIContentContainerP", "questions"]
+- !private ["So18UIContentContainerP", "questionsLabel"]
+- !private ["So18UIContentContainerP", "testEnd"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "transform"]
+- !private ["So9UIControlC", "isHidden"]
+- !private ["So9UIControlC", "transform"]
+- !private ["So17UICoordinateSpaceP", "isHidden"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So17UICoordinateSpaceP", "transform"]
+- !private ["So13UIDynamicItemP", "isHidden"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So13UIDynamicItemP", "transform"]
+- !private ["So18UIFocusEnvironmentP", "CGAffineTransform"]
+- !private ["So18UIFocusEnvironmentP", "CGFloat"]
+- !private ["So18UIFocusEnvironmentP", "UIAlertAction"]
+- !private ["So18UIFocusEnvironmentP", "UIAlertActionStyle"]
+- !private ["So18UIFocusEnvironmentP", "UIAlertController"]
+- !private ["So18UIFocusEnvironmentP", "UIAlertControllerStyle"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addAction"]
+- !private ["So18UIFocusEnvironmentP", "checkPlayer"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isHidden"]
+- !private ["So18UIFocusEnvironmentP", "nextQbutton"]
+- !private ["So18UIFocusEnvironmentP", "nextQbutton2"]
+- !private ["So18UIFocusEnvironmentP", "player"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "questionIndex"]
+- !private ["So18UIFocusEnvironmentP", "questions"]
+- !private ["So18UIFocusEnvironmentP", "questionsLabel"]
+- !private ["So18UIFocusEnvironmentP", "testEnd"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "transform"]
+- !private ["So11UIFocusItemP", "isHidden"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So11UIFocusItemP", "transform"]
+- !private ["So7UILabelC", "text"]
+- !private ["So7UILabelC", "transform"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGAffineTransform"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGFloat"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIAlertAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIAlertActionStyle"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIAlertController"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIAlertControllerStyle"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "checkPlayer"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "nextQbutton"]
+- !private ["So30UIPasteConfigurationSupportingP", "nextQbutton2"]
+- !private ["So30UIPasteConfigurationSupportingP", "player"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "questionIndex"]
+- !private ["So30UIPasteConfigurationSupportingP", "questions"]
+- !private ["So30UIPasteConfigurationSupportingP", "questionsLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "testEnd"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "transform"]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "CGAffineTransform"]
+- !private ["So11UIResponderC", "CGFloat"]
+- !private ["So11UIResponderC", "UIAlertAction"]
+- !private ["So11UIResponderC", "UIAlertActionStyle"]
+- !private ["So11UIResponderC", "UIAlertController"]
+- !private ["So11UIResponderC", "UIAlertControllerStyle"]
+- ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", "UILabel"]
+- !private ["So11UIResponderC", "addAction"]
+- ["So11UIResponderC", "checkPlayer"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isHidden"]
+- ["So11UIResponderC", "nextButton"]
+- ["So11UIResponderC", "nextQbutton"]
+- ["So11UIResponderC", "nextQbutton2"]
+- ["So11UIResponderC", "player"]
+- ["So11UIResponderC", "prefersStatusBarHidden"]
+- !private ["So11UIResponderC", "present"]
+- ["So11UIResponderC", "questionIndex"]
+- ["So11UIResponderC", "questions"]
+- ["So11UIResponderC", "questionsLabel"]
+- ["So11UIResponderC", "testEnd"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So11UIResponderC", "transform"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "CGAffineTransform"]
+- !private ["So30UIResponderStandardEditActionsP", "CGFloat"]
+- !private ["So30UIResponderStandardEditActionsP", "UIAlertAction"]
+- !private ["So30UIResponderStandardEditActionsP", "UIAlertActionStyle"]
+- !private ["So30UIResponderStandardEditActionsP", "UIAlertController"]
+- !private ["So30UIResponderStandardEditActionsP", "UIAlertControllerStyle"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addAction"]
+- !private ["So30UIResponderStandardEditActionsP", "checkPlayer"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isHidden"]
+- !private ["So30UIResponderStandardEditActionsP", "nextQbutton"]
+- !private ["So30UIResponderStandardEditActionsP", "nextQbutton2"]
+- !private ["So30UIResponderStandardEditActionsP", "player"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "questionIndex"]
+- !private ["So30UIResponderStandardEditActionsP", "questions"]
+- !private ["So30UIResponderStandardEditActionsP", "questionsLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "testEnd"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "transform"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "addAction"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "isHidden"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "transform"]
+- !private ["So16UIStateRestoringP", "CGAffineTransform"]
+- !private ["So16UIStateRestoringP", "CGFloat"]
+- !private ["So16UIStateRestoringP", "UIAlertAction"]
+- !private ["So16UIStateRestoringP", "UIAlertActionStyle"]
+- !private ["So16UIStateRestoringP", "UIAlertController"]
+- !private ["So16UIStateRestoringP", "UIAlertControllerStyle"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "addAction"]
+- !private ["So16UIStateRestoringP", "checkPlayer"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "nextQbutton"]
+- !private ["So16UIStateRestoringP", "nextQbutton2"]
+- !private ["So16UIStateRestoringP", "player"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "questionIndex"]
+- !private ["So16UIStateRestoringP", "questions"]
+- !private ["So16UIStateRestoringP", "questionsLabel"]
+- !private ["So16UIStateRestoringP", "testEnd"]
+- !private ["So18UITraitEnvironmentP", "CGAffineTransform"]
+- !private ["So18UITraitEnvironmentP", "CGFloat"]
+- !private ["So18UITraitEnvironmentP", "UIAlertAction"]
+- !private ["So18UITraitEnvironmentP", "UIAlertActionStyle"]
+- !private ["So18UITraitEnvironmentP", "UIAlertController"]
+- !private ["So18UITraitEnvironmentP", "UIAlertControllerStyle"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addAction"]
+- !private ["So18UITraitEnvironmentP", "checkPlayer"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isHidden"]
+- !private ["So18UITraitEnvironmentP", "nextQbutton"]
+- !private ["So18UITraitEnvironmentP", "nextQbutton2"]
+- !private ["So18UITraitEnvironmentP", "player"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "questionIndex"]
+- !private ["So18UITraitEnvironmentP", "questions"]
+- !private ["So18UITraitEnvironmentP", "questionsLabel"]
+- !private ["So18UITraitEnvironmentP", "testEnd"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "transform"]
+- !private ["So6UIViewC", "isHidden"]
+- !private ["So6UIViewC", "text"]
+- !private ["So6UIViewC", "transform"]
+- ["So16UIViewControllerC", "Bool"]
+- !private ["So16UIViewControllerC", "CGAffineTransform"]
+- !private ["So16UIViewControllerC", "CGFloat"]
+- !private ["So16UIViewControllerC", "UIAlertAction"]
+- !private ["So16UIViewControllerC", "UIAlertActionStyle"]
+- !private ["So16UIViewControllerC", "UIAlertController"]
+- !private ["So16UIViewControllerC", "UIAlertControllerStyle"]
+- ["So16UIViewControllerC", "UIButton"]
+- ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", ""]
+- !private ["So16UIViewControllerC", "addAction"]
+- ["So16UIViewControllerC", "checkPlayer"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "nextButton"]
+- ["So16UIViewControllerC", "nextQbutton"]
+- ["So16UIViewControllerC", "nextQbutton2"]
+- ["So16UIViewControllerC", "player"]
+- ["So16UIViewControllerC", "prefersStatusBarHidden"]
+- !private ["So16UIViewControllerC", "present"]
+- ["So16UIViewControllerC", "questionIndex"]
+- ["So16UIViewControllerC", "questions"]
+- ["So16UIViewControllerC", "questionsLabel"]
+- ["So16UIViewControllerC", "testEnd"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["10Question2114ViewControllerC", "Bool"]
+- !private ["10Question2114ViewControllerC", "CGAffineTransform"]
+- !private ["10Question2114ViewControllerC", "CGFloat"]
+- !private ["10Question2114ViewControllerC", "UIAlertAction"]
+- !private ["10Question2114ViewControllerC", "UIAlertActionStyle"]
+- !private ["10Question2114ViewControllerC", "UIAlertController"]
+- !private ["10Question2114ViewControllerC", "UIAlertControllerStyle"]
+- ["10Question2114ViewControllerC", "UIButton"]
+- ["10Question2114ViewControllerC", "UILabel"]
+- ["10Question2114ViewControllerC", "checkPlayer"]
+- ["10Question2114ViewControllerC", "deinit"]
+- ["10Question2114ViewControllerC", "init"]
+- ["10Question2114ViewControllerC", "nextButton"]
+- ["10Question2114ViewControllerC", "nextQbutton"]
+- ["10Question2114ViewControllerC", "nextQbutton2"]
+- ["10Question2114ViewControllerC", "player"]
+- ["10Question2114ViewControllerC", "prefersStatusBarHidden"]
+- !private ["10Question2114ViewControllerC", "present"]
+- ["10Question2114ViewControllerC", "questionIndex"]
+- ["10Question2114ViewControllerC", "questions"]
+- ["10Question2114ViewControllerC", "questionsLabel"]
+- ["10Question2114ViewControllerC", "testEnd"]
+- ["10Question2114ViewControllerC", "viewDidLoad"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s15_CVarArgAlignedP", "pi"]
+- !private ["s22_CVarArgPassedAsDoubleP", "pi"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isHidden"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "transform"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGAffineTransform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertActionStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertControllerStyle"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "checkPlayer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isHidden"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nextQbutton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nextQbutton2"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "player"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "questionIndex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "questions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "questionsLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "testEnd"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "transform"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "pi"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- !private "SC17CGAffineTransformV"
+- !private "12CoreGraphics7CGFloatV"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s13FloatingPointP"
+- "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s7NumericP"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- "s8SequenceP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So13UIAlertActionC"
+- !private "SC18UIAlertActionStyleO"
+- !private "So17UIAlertControllerC"
+- !private "SC22UIAlertControllerStyleO"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- "10Question2114ViewControllerC"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "62bebe73304c571077155b94b272bd06"

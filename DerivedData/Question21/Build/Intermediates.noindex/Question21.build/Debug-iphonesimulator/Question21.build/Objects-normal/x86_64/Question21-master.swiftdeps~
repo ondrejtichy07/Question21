@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "f6782cc75efb5f70c8625ebaf0c42979"
+build_time: [1530719436, 331350000]
+inputs:
+  "/Users/admin/Desktop/Desktop/xC/Question21/Question21/ViewController.swift": [1523305448, 0]
+  "/Users/admin/Desktop/Desktop/xC/Question21/Question21/AppDelegate.swift": [1507114181, 0]
